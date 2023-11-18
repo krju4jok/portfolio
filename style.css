@@ -170,3 +170,28 @@ body {
     font-size: 18px;
     line-height: 2;
 }
+
+.season__list {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-right: 40px;
+}
+
+.season__button {
+    cursor: pointer;
+    width: 220px;
+    height: 55px;
+    background-color: black;
+    border: #BDAE82 solid 2px;
+    font-family: inter;
+    color: #BDAE82;
+    font-size: 20px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+#active {
+    background-color: #BDAE82;
+    color: black;
+}
