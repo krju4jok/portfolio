@@ -1,10 +1,7 @@
 *{
-    margin: 0;
+    margin: 0 auto;
   }
 
-html {
-    box-sizing: border-box;
-}
 
 a {
     color: white;
@@ -15,6 +12,7 @@ a {
 body {
     display: flex; 
     flex-direction: column; 
+    border: #ffffff;
 }
   
 .header {
@@ -33,7 +31,7 @@ body {
 
 .nav__logo {
     margin-top: 20px;
-    margin-left: -20px
+    margin-left: -285px
 }
 
 .nav__list {
@@ -41,13 +39,13 @@ body {
     font-family: inter;
     font-size: 20px;
     list-style: none;
-    margin-top: 34px;
+    margin-top: 33px;
     margin-right: 10px;
     color: #ffffff;
 }
 
 .nav__item {
-    margin-left: 10px;
+    margin-left: 11px;
     margin-right: 20px;
     text-align: center;
     padding: 0;
