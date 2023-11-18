@@ -304,5 +304,65 @@ body {
     margin-bottom: 5px;
 }
 #message::placeholder {
-    transform: translate(19px, -23px);
+    transform: translate(18px, -23px);
+}
+
+
+
+
+
+.footer {
+    width: 1440px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+
+}
+
+.footer__data {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -30px;
+}
+
+.data__list {
+    display: flex;
+    list-style: none;
+}
+
+.footer__text {
+    color: white;
+    font-size: 20px;
+    font-family: inter;
+    padding: 10px;
+}
+
+.footer__school {
+    margin-top: 55px;
+    margin-left: 605px;
+}
+
+
+.media__list {
+    display: flex;
+    list-style: none;
+    width: 188px;
+    height: 50px;
+    margin-left: 640px;
+    margin-top: -10px;
+}
+
+.footer__media {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 8px;
+}
+
+.footer__data__media {
+    display: flex;
+    list-style: none;
+}
+
+.media__item {
+    padding: 10px;
 }
