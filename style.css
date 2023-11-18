@@ -171,11 +171,11 @@ body {
     line-height: 2;
 }
 
-.season__list {
+.season__buttons {
     display: inline-flex;
-    justify-content: center;
     margin-top: 75px;
     margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 .season__button {
@@ -194,4 +194,30 @@ body {
 #active {
     background-color: #BDAE82;
     color: black;
+}
+
+.season__list {
+    display: inline-flex;
+    margin-left: -39px;
+    list-style: none;
+}
+
+.season__photo__list__item {
+    padding-top: 20px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-bottom: 0px;
+    width: 450px;
+    height: 560px;
+}
+
+.video {
+    margin-top: 75px;
+    background-image: url(/images/video-player.jpg);
+    width: 1400px;
+    height: 705px;
+}
+
+.video__button {
+    margin-top: 288px
 }
