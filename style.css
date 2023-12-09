@@ -13,6 +13,7 @@ body {
     display: flex; 
     flex-direction: column; 
     border: #ffffff;
+    background-color: black;
 }
   
 .header {
@@ -53,18 +54,21 @@ body {
 
 .lang {
     display: flex;
+
 }
 
-.lang__en {
+.lang__button.active, .lang__button:hover {
     margin-left: 10px;
     margin-right: 10px;
     color: #BDAE82;
     font-weight: 700;
+    position: relative;
 }
 
-.lang__ru {
+.lang__button {
     margin-left: 10px;
     margin-right: 10px;
+    position: relative;
 }
 
 .hero {
@@ -176,6 +180,7 @@ body {
     margin-top: 75px;
     margin-right: 40px;
     margin-bottom: 40px;
+    list-style: none;
 }
 
 .season__button {
@@ -191,7 +196,7 @@ body {
     margin-right: 2.5px;
 }
 
-#active {
+.season__button.active, .season__button:hover {
     background-color: #BDAE82;
     color: black;
 }
